@@ -1,8 +1,8 @@
 from PIL import Image
 import os
-src='Data/'
-dst='CropData/'
-size=32
+src='Data/'  #源文件夹
+dst='CropData/'#目的文件夹
+size=32#单张图片大小(32*32)
 cnt=0
 imgs=os.listdir(src)
 for opath in imgs:
